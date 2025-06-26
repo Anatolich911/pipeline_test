@@ -2,6 +2,7 @@ name: Test Paths
 
 on: 
   pull_request:
+    types: [opened]
     paths: ['**.ts']
 jobs:
   go:
@@ -9,4 +10,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello"
-
