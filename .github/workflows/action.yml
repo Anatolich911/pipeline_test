@@ -2,7 +2,7 @@ name: Test Paths
 
 on: 
   pull_request:
-    paths: ['**.js']
+    paths: ['**.ts']
 jobs:
   go:
     name: Checkout 
