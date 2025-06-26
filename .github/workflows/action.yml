@@ -2,6 +2,7 @@ name: Test Paths
 
 on: 
   pull_request:
+    types: [opened]
     paths: ['**.ts']
 jobs:
   go:
