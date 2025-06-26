@@ -1,10 +1,13 @@
 name: Test Paths
+
 on: 
   pull_request:
     types: [opened]
-    paths:['**.ts']
+    paths: ['**.ts']
 jobs:
   go:
     name: Checkout 
-    run: echo "Hello"
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello"
 
