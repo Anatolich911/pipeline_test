@@ -5,7 +5,7 @@ on:
 
 jobs:
   go:
-    name: Checkout 
+    name: Checkout all
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello"
